@@ -7,10 +7,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/csduarte/mattermost-probe/config"
-	"github.com/csduarte/mattermost-probe/mattermost"
-	"github.com/csduarte/mattermost-probe/metrics"
-	"github.com/csduarte/mattermost-probe/util"
+	"github.com/stanchan/mattermost-probe/config"
+	"github.com/stanchan/mattermost-probe/mattermost"
+	"github.com/stanchan/mattermost-probe/metrics"
+	"github.com/stanchan/mattermost-probe/util"
 	"github.com/mattermost/platform/model"
 	uuid "github.com/satori/go.uuid"
 )

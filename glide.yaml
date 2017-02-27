@@ -1,4 +1,4 @@
-package: github.com/csduarte/mattermost-probe
+package: github.com/stanchan/mattermost-probe
 import:
 - package: gopkg.in/yaml.v2
 - package: github.com/mattermost/platform

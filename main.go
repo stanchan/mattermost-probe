@@ -2,18 +2,16 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"io/ioutil"
 	"os"
-	"time"
 
 	"go.uber.org/zap"
 
-	"github.com/csduarte/mattermost-probe/config"
-	"github.com/csduarte/mattermost-probe/mattermost"
-	"github.com/csduarte/mattermost-probe/metrics"
-	"github.com/csduarte/mattermost-probe/probe"
-	"github.com/csduarte/mattermost-probe/util"
+	"github.com/stanchan/mattermost-probe/config"
+	"github.com/stanchan/mattermost-probe/mattermost"
+	"github.com/stanchan/mattermost-probe/metrics"
+	"github.com/stanchan/mattermost-probe/probe"
+	"github.com/stanchan/mattermost-probe/util"
 	yaml "gopkg.in/yaml.v2"
 )
 
